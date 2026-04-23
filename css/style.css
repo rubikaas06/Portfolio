@@ -23,3 +23,22 @@ body{
     justify-content: center;
     align-items: center;
 }
+.imptxt{
+    color: #9C27B0;
+}
+.btn{
+    background-color: #9C27B0;
+    border: none;
+    color: #F5E9F7;
+    padding: 5px;
+}
+.aboutme{
+    height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme img{
+    height: 80vh;
+}
