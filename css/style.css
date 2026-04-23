@@ -1,6 +1,6 @@
 body{
     font-family: roboto;
-    background-color: #FCD1F5;
+    background-color: #F5E9F7;
     margin: 0;
 }
 .navbar h4{
@@ -9,6 +9,19 @@ body{
 }
 .navbar{
     text-align: right;
-    background-color: #EFBBF0;
+    background-color: #E0BCE7;
     padding: 10px;
+}
+.Home img{
+    width: 50vh;
+    border-radius: 130px;
+}
+#s2{
+    height: 95vh;
+    display: flex;         /* Enables flexbox layout */
+    align-items: center;   /* Vertically centers image and text */
+    gap: 15px;
+}
+.Home h1{
+    display: inline-block;
 }
