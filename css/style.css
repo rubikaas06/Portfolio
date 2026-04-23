@@ -42,3 +42,29 @@ body{
 .aboutme img{
     height: 80vh;
 }
+.skills{
+    height: 100vh;
+}
+.cardset{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 10vh;
+
+}
+.card{
+    background-color: #E0BCE7;
+    border-radius: 10px;
+    height: 55vh;
+}
+.project{
+    height: 100vh;
+}
+.pcard{
+     background-color: #E0BCE7;
+    border-radius: 10px;
+    height: 40vh;
+    width: 40vh;
+    padding: 10px;
+}
