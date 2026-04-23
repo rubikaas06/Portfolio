@@ -1,0 +1,14 @@
+body{
+    font-family: roboto;
+    background-color: #FCD1F5;
+    margin: 0;
+}
+.navbar h4{
+    display: inline;
+    padding: 20px;
+}
+.navbar{
+    text-align: right;
+    background-color: #EFBBF0;
+    padding: 10px;
+}
