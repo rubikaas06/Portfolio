@@ -68,3 +68,10 @@ body{
     width: 40vh;
     padding: 10px;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 27vh;
+    background-color: #E0BCE7;
+    align-items: center;
+}
