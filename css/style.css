@@ -14,14 +14,12 @@ body{
 }
 .Home img{
     width: 50vh;
-    border-radius: 130px;
+    border-radius: 150px;
 }
-#s2{
+.Home{
+    display: flex;
+    flex-flow: row;
     height: 95vh;
-    display: flex;         /* Enables flexbox layout */
-    align-items: center;   /* Vertically centers image and text */
-    gap: 15px;
-}
-.Home h1{
-    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
