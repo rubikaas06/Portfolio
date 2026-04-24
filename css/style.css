@@ -57,6 +57,10 @@ body{
     background-color: #E0BCE7;
     border-radius: 10px;
     height: 55vh;
+    margin-top: 10px;
+}
+.card img{
+    width: 200px;
 }
 .project{
     height: 100vh;
@@ -80,10 +84,14 @@ footer{
         font-size: small;
         height: 2vh;
     }
+    .navbar h4{
+    padding: 10px;
+    }
     .Home{
         display: flex;
         flex-direction: column;
         font-size: small;
+        height: 480px;
     }
     .Home img{
         width: 150px;
@@ -91,6 +99,7 @@ footer{
     }
     .aboutme{
         font-size: small;
+        height: 500px;
     }
     .aboutme img{
         width: 150px;
@@ -99,7 +108,30 @@ footer{
     }
     .skills{
         font-size: small;
+        height: 600px;
+        padding: 10px;
+
+    }
+    .cardset{
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
     }   
+    .card{
+        width: 120px;
+        height: auto;
+
+    }
+    .skills h1{
+    margin-bottom: 10px;
+}
+    .card img{
+        width: 100px;
+        height: auto;
+        margin-left: 10px;
+    }
+    
     .project{
         display: none;
     }
