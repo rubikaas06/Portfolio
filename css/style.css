@@ -75,3 +75,35 @@ footer{
     background-color: #E0BCE7;
     align-items: center;
 }
+@media (max-width: 480px){
+    .navbar{
+        font-size: small;
+        height: 2vh;
+    }
+    .Home{
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+    .Home img{
+        width: 150px;
+        margin-top: 10px;
+    }
+    .aboutme{
+        font-size: small;
+    }
+    .aboutme img{
+        width: 150px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .skills{
+        font-size: small;
+    }   
+    .project{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
