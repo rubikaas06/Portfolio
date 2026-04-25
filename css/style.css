@@ -93,6 +93,9 @@ footer{
         font-size: small;
         height: 480px;
     }
+    .Home s1{
+        margin-left: 10px;
+    }
     .Home img{
         width: 150px;
         margin-top: 10px;
